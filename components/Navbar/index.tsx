@@ -42,7 +42,7 @@ function Navbar() {
                 <div className="items hidden lg:flex">
                     <nav className="pages flex gap-4 lg:gap-6 text-lg font-semibold lg:mr-10">
                         {menuItems.map((item,index) => {
-                            return <a key={index} className={"menu-item"} href={item.link}>{item.name}</a>
+                            return <Link key={index} className={"menu-item"} href={item.link}>{item.name}</Link>
                         })}
                     </nav>
                     <div className="social-links flex gap-5 items-center font-semibold ">
@@ -65,7 +65,7 @@ function Navbar() {
                 </div>
                 <nav className="menu-items w-full flex flex-col font-bold text-xl gap-4 px-10 py-10">
                     {menuItems.map((item,index) => {
-                        return <a key={index} className={"menu-item"} href={item.link}>{item.name}</a>
+                        return <Link key={index} className={"menu-item"} href={item.link}>{item.name}</Link>
                     })}
                 </nav>
                 <div className="social-links flex gap-5 items-center p-10 pt-0">
