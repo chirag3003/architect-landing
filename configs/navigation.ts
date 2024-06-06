@@ -1,35 +1,45 @@
-import {Facebook, Instagram, Twitter, Youtube} from "react-feather";
+import { Facebook, Instagram, Twitter, Youtube } from "react-feather";
 
-const menuItems = [{
+const menuItems = [
+  {
     name: "Home",
-    link: "#"
-}, {
+    link: "/#",
+  },
+  {
     name: "Projects",
-    link: "projects"
-}, {
+    link: "/projects",
+  },
+  {
     name: "About",
-    link: "/about"
-}, {
+    link: "/about",
+  },
+  {
     name: "Contact",
-    link: "/contact"
-},]
+    link: "/contact",
+  },
+];
 
-const socialLinks = [{
+const socialLinks = [
+  {
     icon: Facebook,
     title: "Facebook",
-    link: "#"
-}, {
+    link: "#",
+  },
+  {
     icon: Twitter,
     title: "Twitter",
-    link: "#"
-}, {
+    link: "#",
+  },
+  {
     icon: Instagram,
     title: "Instagram",
-    link: "#"
-}, {
+    link: "#",
+  },
+  {
     icon: Youtube,
     title: "Youtube",
-    link: "#"
-},]
+    link: "#",
+  },
+];
 
-export {menuItems, socialLinks}
+export { menuItems, socialLinks };
