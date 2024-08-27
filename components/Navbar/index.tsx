@@ -94,11 +94,9 @@ function Navbar() {
         <nav className="menu-items w-full flex flex-col font-bold text-xl gap-4 px-10 py-10">
           {menuItems.map((item, index) => {
             return (
-              <>
-                <Link key={index} className={"menu-item"} href={item.link}>
-                  {item.name}
-                </Link>
-              </>
+              <Link key={index} className={"menu-item"} href={item.link}>
+                {item.name}
+              </Link>
             );
           })}
         </nav>
